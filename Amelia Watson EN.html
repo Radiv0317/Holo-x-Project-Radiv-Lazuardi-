@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amelia Watson</title>
+     <!-- Required meta tags --> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <!-- Bootstrap CSS --> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> 
+  <style>
+            body {
+            min-height: 75rem;
+            padding-top: 4.5rem;
+            }
+        </style> 
+ <style type="text/css" id="dcoder_stylesheet">*{
+  text-align: center;
+}
+body {
+  background-color: black;
+  font-size: large;
+}</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="demo1Navbar"> 
+        <div class="container-fluid"> 
+         <a class="navbar-brand" href="Menu utama.html">Menu</a> 
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+         <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+           <li class="nav-item"> <a class="nav-link active" aria-current="page" href="Tentang saya.html">Tentang Saya</a> </li> 
+           <li class="nav-item"> <a class="nav-link" href="Gawr Gura2.html">Gawr Gura</a> </li> 
+           <li class="nav-item"> <a class="nav-link" href="Miko HololiveJP.html">Sakura Miko</a> </li>
+           <li class="nav-item"> <a class="nav-link" href="Amelia Watson EN.html">Amelia Watson</a> </li>
+           <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu lain nya</a> 
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+             <li><a class="dropdown-item" href="#"></a></li> 
+             <li><a class="dropdown-item" href="#"></a></li> 
+             <li> 
+              <hr class="dropdown-divider"> </li> 
+             <li><a class="dropdown-item" href="#"></a></li> 
+            </ul> </li> 
+           <li class="nav-item"> <a class="nav-link" href="#"></a> </li> 
+          </ul> 
+          <form class="d-flex"> 
+           <input class="form-control me-2" type="search" placeholder="Cari" aria-label="search"> 
+           <button class="btn btn-outline-success" type="submit">Cari</button> 
+          </form> 
+         </div> 
+        </div> 
+       </nav> 
+       <main class="container"> 
+        <div class="bg-light p-5 rounded"> 
+         <!-- Bootstrap Bundle with Popper --> 
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> 
+     <img src="https://static.wikia.nocookie.net/virtualyoutuber/images/6/66/Watson_Amelia_Potrait.png/revision/latest/scale-to-width-down/350?cb=20210119125053&path-prefix=id" alt="">
+     <h1 class="ml5" style="font-size: medium;"> <span class="text-wrapper"> <span class="line line1"></span> <span class="letters letters-left">Amelia</span> <span class="letters ampersand"></span> <span class="letters letters-right">Watson</span> <span class="line line2"></span> </span> </h1> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
+     <style>
+     .ml5 {
+   position: relative;
+   font-weight: 300;
+   font-size: 4.5em;
+   color: #402d2d;
+ }
+ 
+ .ml5 .text-wrapper {
+   position: relative;
+   display: inline-block;
+   padding-top: 0.1em;
+   padding-right: 0.05em;
+   padding-bottom: 0.15em;
+   line-height: 1em;
+ }
+ 
+ .ml5 .line {
+   position: absolute;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   height: 3px;
+   width: 100%;
+   background-color: #402d2d;
+   transform-origin: 0.5 0;
+ }
+ 
+ .ml5 .ampersand {
+   font-family: Baskerville, serif;
+   font-style: italic;
+   font-weight: 400;
+   width: 1em;
+   margin-right: -0.1em;
+   margin-left: -0.1em;
+ }
+ 
+ .ml5 .letters {
+   display: inline-block;
+   opacity: 0;
+ }
+   </style> 
+     <script>
+     anime.timeline({loop: true})
+   .add({
+     targets: '.ml5 .line',
+     opacity: [0.5,1],
+     scaleX: [0, 1],
+     easing: "easeInOutExpo",
+     duration: 700
+   }).add({
+     targets: '.ml5 .line',
+     duration: 600,
+     easing: "easeOutExpo",
+     translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+   }).add({
+     targets: '.ml5 .ampersand',
+     opacity: [0,1],
+     scaleY: [0.5, 1],
+     easing: "easeOutExpo",
+     duration: 600,
+     offset: '-=600'
+   }).add({
+     targets: '.ml5 .letters-left',
+     opacity: [0,1],
+     translateX: ["0.5em", 0],
+     easing: "easeOutExpo",
+     duration: 600,
+     offset: '-=300'
+   }).add({
+     targets: '.ml5 .letters-right',
+     opacity: [0,1],
+     translateX: ["-0.5em", 0],
+     easing: "easeOutExpo",
+     duration: 600,
+     offset: '-=600'
+   }).add({
+     targets: '.ml5',
+     opacity: 0,
+     duration: 1000,
+     easing: "easeOutExpo",
+     delay: 1000
+   });
+   </script> 
+   <p> Nama : Watson Amelia</p> 
+   <p> Nickname : Ame, Amechan</p>
+   <br> 
+   <p> Tinggi : 150 cm </p> 
+   <br> 
+   <p> Tanggal Lahir : 6 januari</p> 
+   <br> 
+   <p>
+     Gender: Perempuan
+   </p>
+   <br>
+   <p> Zodiac : Capricorn </p> 
+   <br> 
+   <p> Debut Date : YouTube: 13 September 2020</p> 
+   <br> 
+   <p> Affiliation : Hololive English</p> 
+   <br> 
+   <h1> Tentang Watson Amelia </h1> 
+   <p>
+     Watson Amelia adalah seorang Vtuber asal Inggris yang bergabung dengan Hololive, sebagai bagian dari Vtuber 
+     cabanmg bahasa Inggris generasi pertama.
+   </p>
+   <br>
+   <h1>
+     Kepribadian
+   </h1>
+   <p>
+     Amelia adalah gadis yang agak ekspresif yang sering terlihat bergaul dengan sesama anggota Hololive EN.
+     Dia biasanya baik, suportif, dan manis.
+
+     Terlepas dari kepribadiannya yang manis seperti malaikat, dia juga menyimpan sisi lain dari kepribadian nya yang sering disebut oleh Penggemarnya
+     sebagai mode "Gremlin". Dia biasanya sombong, serkah dan tidak suportif dalam permainan seperti Fall Guys, Apex Legend, Dan Valorant.
+   </p>
+   <h1>
+     Sejarah
+   </h1>
+   <p>
+     <h1>
+       Latar Belakang
+     </h1>
+     Amelia di perkenalkan secara bersamaan di akun Twitter Hololive yang reguler dan berbahasa inggris serta di saluran YouTube Hololoive.
+   </p>
+    </body>
+</html>

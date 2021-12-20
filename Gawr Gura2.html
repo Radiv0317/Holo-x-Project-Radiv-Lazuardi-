@@ -1,0 +1,218 @@
+<html>
+  <head> 
+  <title>
+            Biodata Gawr Gura
+        </title> 
+  <link rel="stylesheet" href="biodata.css"> 
+  <link rel="stylesheet" href="biodata.js"> 
+   <!-- Required meta tags --> 
+   <meta charset="utf-8"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1"> 
+   <!-- Bootstrap CSS --> 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> 
+   <style>
+             body {
+             min-height: 75rem;
+             padding-top: 4.5rem;
+             }
+         </style> 
+  <style type="text/css" id="dcoder_stylesheet">*{
+   text-align: center;
+ }
+ body {
+   background-color: black;
+   font-size: large;
+ }</style>
+</head> 
+ <body> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="demo1Navbar"> 
+    <div class="container-fluid"> 
+     <a class="navbar-brand" href="#">Menu</a> 
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+     <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+       <li class="nav-item"> <a class="nav-link active" aria-current="page" href="Tentang saya.html">Tentang Saya</a> </li> 
+       <li class="nav-item"> <a class="nav-link" href="Gawr Gura2.html">Gawr Gura</a> </li> 
+       <li class="nav-item"> <a class="nav-link" href="Miko HololiveJP.html">Sakura Miko</a> </li>
+       <li class="nav-item"> <a class="nav-link" href="Amelia Watson EN.html">Amelia Watson</a> </li>
+       <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu lain nya</a> 
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+         <li><a class="dropdown-item" href="#"></a></li> 
+         <li><a class="dropdown-item" href="#"></a></li> 
+         <li> 
+          <hr class="dropdown-divider"> </li> 
+         <li><a class="dropdown-item" href="#"></a></li> 
+        </ul> </li> 
+       <li class="nav-item"> <a class="nav-link" href="#"></a> </li> 
+      </ul> 
+      <form class="d-flex"> 
+       <input class="form-control me-2" type="search" placeholder="Cari" aria-label="search"> 
+       <button class="btn btn-outline-success" type="submit">Cari</button> 
+      </form> 
+     </div> 
+    </div> 
+   </nav> 
+   <main class="container"> 
+    <div class="bg-light p-5 rounded"> 
+     <!-- Bootstrap Bundle with Popper --> 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> 
+    <img src="https://static.wikia.nocookie.net/virtualyoutuber/images/4/4f/Gawr_Gura_Portrait.png/revision/latest?cb=20200910192716" alt="image" height="150" width="150"> 
+    <h1 class="ml5" style="font-size: medium;"> <span class="text-wrapper"> <span class="line line1"></span> <span class="letters letters-left">Gawr</span> <span class="letters ampersand"></span> <span class="letters letters-right">Gura</span> <span class="line line2"></span> </span> </h1> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
+    <style>
+    .ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #402d2d;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+  </style> 
+    <script>
+    anime.timeline({loop: true})
+  .add({
+    targets: '.ml5 .line',
+    opacity: [0.5,1],
+    scaleX: [0, 1],
+    easing: "easeInOutExpo",
+    duration: 700
+  }).add({
+    targets: '.ml5 .line',
+    duration: 600,
+    easing: "easeOutExpo",
+    translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+  }).add({
+    targets: '.ml5 .ampersand',
+    opacity: [0,1],
+    scaleY: [0.5, 1],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5 .letters-left',
+    opacity: [0,1],
+    translateX: ["0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=300'
+  }).add({
+    targets: '.ml5 .letters-right',
+    opacity: [0,1],
+    translateX: ["-0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  </script> 
+    <p> Nama : Gawr Gura </p> 
+    <br> 
+    <p> Umur : Antara 9.000 dan 10.000 </p> 
+    <br> 
+    <p> Tinggi : 141 cm </p> 
+    <br> 
+    <p> Tanggal Lahir : 20 Juni </p> 
+    <br> 
+    <p>
+      Gender: Perempuan
+    </p>
+    <p> Zodiac : Gemini </p> 
+    <br> 
+    <p> Nickname : Same-chan, Apex Predator, City Pop Shark, Samegaki </p> 
+    <br> 
+    <p> Debut Date : YouTube : 2020/09/13 </p> 
+    <br> 
+    <p> Affiliation : Hololive English </p> 
+    <br> 
+    <h1> Tentang Gawr Gura </h1> 
+    <br> 
+    <p> Gawr Gura adalah virtual YouTuber dari inggris yang tekait dengan Hololive. Dia adalah Vtuber generasi pertama dari Hololive cabang Inggris. </p> 
+    <p> Gawr Gura mempunyai sifat ramah dan disukai banyak orang. Dan dia sering menghibur penontonnya. Dia sering salah mengucapkan kata kata, dan juga dia kesulitan mengingat usia nya sendiri (awokawokawokawok), dan dia kesulitan dalam memecahkan masalah matematika dasar, membuat penonton yang tersayang memanggilnya "Dum shark" (Hiu Bodoh), mengingat, salah satu penontonnya pernah mengatakan "Gura memiliki hati emas dan kepala tulang" </p> 
+    <p> Dia juga kadang kadang bisa malas. Dia sering melupakan barang yang mudah rusak sampai mulai membusuk, dan memakan makanan bayi "karena kamu tidak perlu memasaknya atau mengunyahnya". Namun terlepas dari kebiasaan nya yang buruk Gura, dia juga cerdas, pintar, dan memiliki pengetahuan yang luas tentang fakta Hiu. Ketika dia ditanya kenapa tidak "Boing Boing", dia memaafkan nya dengan mengatakan bahwa dia "hidrodinamik" . Keahliannya dalam permainan rhythm yang cepat dan luar biasa dan dia sangat ambisius. Dia juga sesekali membuat lelucon cabul, dan akrab dengan meme modern </p> 
+    <h1 style="font-family: sans-serif;"> -History- </h1> 
+    <h4> Latar Belakang </h4> 
+    <p> Pada tanggal 23 April,menyusul keberhasilan grup VTuber hololive berbahasa Jepang, Cover Corporation mengumumkan audisi untuk anggota berbahasa Inggris. Putaran awal audisi berlangsung hingga 24 Mei. Selama audisinya, Gura menggambar karakter imut dalam "posisi kekuatan" dengan tangan di pinggul, yang dia anggap memberikan kesan yang baik. Gura ingat pernah ditanya tentang SCP Foundation, sebuah wiki artikel yang menjelaskan artefak dan makhluk fiksi, meskipun dia harus mengakui bahwa dia tidak tahu apa itu. Desain Gawr Gura diketahui oleh anggota holoEN lainnya sejak 2 Juli 2020, ketika Amelia Watson menggambar bagian pertama dari fanart Gawr Gura. Ini bukan desain final, bagaimanapun, dan perubahan desain yang tidak ditentukan dibuat sebelum debut Gura. Saluran YouTube Gura dibuat pada 16 Juli 2020, dan akun Twitter-nya di bulan yang sama. Aliran tes pra-debut internal dilakukan antara semua anggota hololive English, di mana dalam satu kasus bug menyebabkan Gura muncul tanpa pakaian. Pada 8 September 2020, Ninomae Ina'nis pertama kali terungkap dalam video promosi singkat bersama empat anggota hololive -Myth- lainnya. Pengumuman serentak dibuat di akun Twitter hololive, dan akun Twitter bahasa Inggris hololive. Pada saat yang sama, Gura membuat tweet pertamanya, yang terkenal terdiri dari satu huruf "a."</p> 
+    <h1>Debut</h1> 
+    <p> Streaming Debut Gura di jadwalkan pada 12 September 2020 pukul 2PM PDT, meskipun ia terlambat 12 menit dan 32 detik untuk streaming debutnya sendiri karena masalah teknis. Dia adalah yang keempat dari lima anggota asli hololive English yang debut pada hari yang sama. Lebih dari 45.000 pemirsa menonton acara tersebut, di mana ia memukau pemirsa dengan membawakan single pop kota tahun 1980 karya Tatsuro Yamashita, Ride on Time. Dalam ulasan enam bulan tentang debutnya, dia menggambarkan bahwa dia sangat gugup sehingga dia bisa merasakan jantungnya berdetak di kepalanya, dan memiliki masalah perut karena dia terlalu gugup untuk makan sebelum streaming. Sebelum streaming, dia menonton video debut dari sejumlah streamer Jepang hololive untuk persiapan. Acara debut ditutup dengan acara kolaborasi bahasa Inggris hololive pertama pada pukul 18:35 PDT, di mana Gura melakukan streaming bersama dengan empat anggota bahasa Inggris hololive lainnya. </p> 
+    <h1 class="ml12" style="font-size: small;">Mengcoding Menggokil</h1> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
+    <style>
+  .ml12 {
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+</style> 
+    <script>
+  // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml12');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (el, i) => 500 + 30 * i
+  }).add({
+    targets: '.ml12 .letter',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1100,
+    delay: (el, i) => 100 + 30 * i
+  });
+   </script> 
+   </div> 
+  </main> 
+ 
+</body>
+</html>
