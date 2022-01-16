@@ -111,6 +111,26 @@ h1 a {
   opacity: 0; 
   animation: 1s fadeIn ease forwards .5s;
 }
+
+@keyframes grow {
+  100% {
+    height: 90%;
+    width: 90%;
+ }
+}
+
+@keyframes fadeIn {
+100% {
+  opacity: 1;
+ }
+}
+
+@keyframes slideUp {
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
