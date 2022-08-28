@@ -1,0 +1,59 @@
+ <div>
+      <h1>
+        <h4></h4>
+        <p>
+          <img src="" alt="">
+          <p>
+            <b></b>
+            <p>
+              <b></b>
+            </p>
+          </p>
+        </p>
+      </h1>
+    </div>
+     <style>
+      h1{
+        text-align: center;
+      }
+      p{
+        font-size: 14px;
+        text-align: left;
+      }
+    </style>
+
+    <div class="container">
+        <div class="box">
+          <img src="https://wallpapercave.com/wp/wp8570011.jpg">
+        </div>
+        <div class="box">
+          <img src="https://wallpapercave.com/dwp2x/wp8569997.jpg">
+        </div>
+        <div class="box">
+          <img src="https://wallpapercave.com/wp/wp8569973.jpg">
+        </div>
+        <div class="box">
+          <img src="https://p4.wallpaperbetter.com/wallpaper/450/54/464/anime-anime-girls-tsukiman-gawr-gura-hololive-hd-wallpaper-preview.jpg">
+        </div>
+      </div>
+
+
+      <a class="link1" href="/HTML/HololiveEN.html" target="_blank">Hololive EN</a>
+   <br>
+   <br>
+   <a class="link1" href="/HTML/HololiveJP.html" target="_blank">Hololive JP</a>
+   <br>
+   <br> 
+   <a class="link1" href="/HTML/HololiveID.html" target="_blank">Hololive ID</a>
+   <br>
+   <br>
+   <a class="link1" href="/HTML/" target="_blank">Nijisanji</a>
+   <br>
+   <br>
+   <a class="link1" href="/HTML/otheranime .html" target="_blank">Other</a>
+   <br>
+   <br>
+   <a class="link1" href="/HTML/honkai impact.html" target="_blank">HoYoverse</a>
+   <br>
+   <br>
+   <a class="link1" href="HTML/aboutme.html" target="_blank">Abaouth Me</a>

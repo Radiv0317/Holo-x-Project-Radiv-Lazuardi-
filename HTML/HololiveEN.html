@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HololiveEN</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/CSS/card.css">
+    <link rel="icon" type="image/png" href="/logo web.png"/>
+    <style>
+        body{
+            margin-bottom: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav>
+        <img src="/logo web.png" alt="" id="logo">
+    </nav>
+    <br>
+    <br>
+    <h1 class="ml12">Hololive EN</h1> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
+    <style>
+  .ml12 {
+  font-size: 150%;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+</style> 
+    <script>
+var textWrapper = document.querySelector('.ml12');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (el, i) => 500 + 30 * i
+  }).add({
+    targets: '.ml12 .letter',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1100,
+    delay: (el, i) => 100 + 30 * i
+  });
+   </script> 
+    <br>
+    <br>
+    <div class="card">
+        <a href="/HTML/Gawr Gura2.html">
+        <img src="https://static.miraheze.org/hololivewiki/thumb/9/90/Gawr_Gura_-_Portrait_02.png/290px-Gawr_Gura_-_Portrait_02.png" alt="Avatar" style="width:50%">
+        </a>
+        <div class="container">
+          <a href="/HTML/Gawr Gura2.html" style="text-decoration: none; color: black;"><b>Gawr Gura</b></a> 
+          <p>HololiveEN</p> 
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="card">
+        <a href="/HTML/Amelia Watson EN.html">
+        <img src="https://static.miraheze.org/hololivewiki/thumb/c/cf/Watson_Amelia_-_Portrait_02.png/290px-Watson_Amelia_-_Portrait_02.png" alt="Avatar" style="width:50%">
+        </a>
+        <div class="container">
+          <a href="/HTML/Amelia Watson EN.html" style="text-decoration: none; color: black;"><b>Amelia Watson</b></a> 
+          <p>HololiveEN</p> 
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="card">
+        <a href="/HTML/MoriColliope.html">
+        <img src="https://static.miraheze.org/hololivewiki/5/57/Mori_Calliope_-_Portrait_01-1.png?20210903174742" alt="Avatar" style="width:50%">
+        </a>
+        <div class="container">
+          <a href="/HTML/MoriColliope.html" style="text-decoration: none; color: black;"><b>Mori Colliope</b></a> 
+          <p>HololiveEN</p> 
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="card">
+        <a href="/HTML/OuroKronii.html">
+        <img src="https://static.miraheze.org/hololivewiki/a/a1/Ouro_Kronii_-_Portrait_01.png?20210817113811" alt="Avatar" style="width:50%">
+        </a>
+        <div class="container">
+          <a href="/HTML/OuroKronii.html" style="text-decoration: none; color: black;"><b>Ouro Kroni</b></a> 
+          <p>HololiveEN</p> 
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="card">
+        <a href="/HTML/TakanashiKiara.html">
+        <img src="https://static.miraheze.org/hololivewiki/thumb/6/6e/Takanashi_Kiara_-_Portrait_01.png/900px-Takanashi_Kiara_-_Portrait_01.png?20210415035158" alt="Avatar" style="width:50%">
+        </a>
+        <div class="container">
+          <a href="/HTML/TakanashiKiara.html" style="text-decoration: none; color: black;"><b>Takanashi Kiara</b></a> 
+          <p>HololiveEN</p> 
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="card">
+        <a href="/HTML/NinomaeIna'nis.html">
+        <img src="https://static.miraheze.org/hololivewiki/4/47/Ninomae_Ina%27nis_-_Portrait_01-1.png?20210903172955" alt="Avatar" style="width:50%">
+        </a>
+        <div class="container">
+          <a href="/HTML/NinomaeIna'nis.html" style="text-decoration: none; color: black;"><b>Ninomae Ina'nis</b></a> 
+          <p>HololiveEN</p> 
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="card">
+        <a href="/HTML/CeresFauna.html">
+        <img src="https://static.miraheze.org/hololivewiki/thumb/a/ab/Ceres_Fauna_-_Portrait_01.png/900px-Ceres_Fauna_-_Portrait_01.png?20210831055012" alt="Avatar" style="width:50%">
+        </a>
+        <div class="container">
+          <a href="/HTML/CeresFauna.html" style="text-decoration: none; color: black;"><b>Ceres Fauna</b></a> 
+          <p>HololiveEN</p> 
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="card">
+        <a href="/HTML/NanashiMumei.html">
+        <img src="https://static.miraheze.org/hololivewiki/8/80/Nanashi_Mumei_-_Portrait_01.png?20220128145257" alt="Avatar" style="width:50%">
+        </a>
+        <div class="container">
+          <a href="/HTML/NanashiMumei.html" style="text-decoration: none; color: black;"><b>Nanashi Mumei</b></a> 
+          <p>HololiveEN</p> 
+        </div>
+      </div>
+</body>
+</html>

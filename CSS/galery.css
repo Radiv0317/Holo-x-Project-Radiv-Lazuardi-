@@ -1,0 +1,5 @@
+img{
+  box-shadow: 0 5px 10px 0 black;
+  transition: 0.3s;
+  width: 40%;
+}

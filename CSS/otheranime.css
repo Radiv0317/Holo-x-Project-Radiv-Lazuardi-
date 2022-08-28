@@ -47,8 +47,20 @@ nav ul li a{
   .link1:hover, .link1:active {
     background-color: gray;
   }
+  hr{
+    margin-top: 11%;
+  }
+  footer{
+    text-align: left;
+    margin-left: 10px;
+    font-size: large;
+  }
+  .instagram{
+    text-decoration: none;
+    color: black;
+  }
   @media only screen and (max-width: 600px){
       body{
           font-family: 'Courier New', Courier, monospace;
-        }
+      }
   }
