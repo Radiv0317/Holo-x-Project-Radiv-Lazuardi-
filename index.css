@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 nav{
     display: flex;
@@ -43,7 +44,12 @@ nav ul li a{
     text-decoration: none;
     display: inline-block;
   }
-  
+  .card{
+    box-shadow: 0 4px 10px 0 grey;
+  }
+  .card:hover{
+    box-shadow: 0 4px 10px 0 black;
+  }
   .link1:hover, .link1:active {
     background-color: gray;
   }

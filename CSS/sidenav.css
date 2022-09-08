@@ -14,6 +14,7 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: black;
+    margin-left: 20px;
 }
 
 a,
@@ -26,7 +27,7 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: white;
+    background: #e3f2fd;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -57,7 +58,7 @@ a:focus {
     left: -250px;
     height: 100vh;
     z-index: 999;
-    background: white;
+    background: #e3f2fd;
     color: black;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -91,7 +92,7 @@ a:focus {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(20, 20, 20, 0.7);
     z-index: 998;
     opacity: 0;
     transition: all 0.5s ease-in-out;
@@ -103,12 +104,12 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: white;
+    background: #e3f2fd;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #e3f2fd;
 }
 
 #sidebar ul p {
@@ -125,13 +126,13 @@ a:focus {
 
 #sidebar ul li a:hover {
     color: black;
-    background: #fff;
+    background: #e3f2fd;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: black;
-    background: white;
+    background: #e3f2fd;
 }
 
 a[data-toggle="collapse"] {
@@ -149,7 +150,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: white;
+    background: #e3f2fd;
     color: black;
 }
 
@@ -166,13 +167,13 @@ ul.CTAs a {
 }
 
 a.download {
-    background: #fff;
+    background: #e3f2fd;
     color: black;
 }
 
 a.article,
 a.article:hover {
-    background: white !important;
+    background: #e3f2fd !important;
     color: black !important;
 }
 
@@ -182,7 +183,6 @@ a.article:hover {
 
 #content {
     width: 100%;
-    padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;

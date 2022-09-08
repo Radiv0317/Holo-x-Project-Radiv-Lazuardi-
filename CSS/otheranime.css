@@ -1,9 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 nav{
     display: flex;
@@ -18,6 +16,7 @@ nav ul{
 }
 #logo{
     width: 50px;
+    margin-left: 10px;
 }
 nav ul li a{
  text-decoration: none;
@@ -27,38 +26,12 @@ nav ul li a{
  color: black;
 }
 
-#menu{
-    display: none;
+.card{
+  box-shadow: 0 3px 3px gray;
 }
-#text{
-    padding: 120px;
-    margin: 110px;
-    font-size: 30px;
+.card:hover{
+  box-shadow: 0 4px 10px black;
 }
-.link1:link, .link1:visited {
-    background-color: black;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  .link1:hover, .link1:active {
-    background-color: gray;
-  }
-  hr{
-    margin-top: 11%;
-  }
-  footer{
-    text-align: left;
-    margin-left: 10px;
-    font-size: large;
-  }
-  .instagram{
-    text-decoration: none;
-    color: black;
-  }
   @media only screen and (max-width: 600px){
       body{
           font-family: 'Courier New', Courier, monospace;
