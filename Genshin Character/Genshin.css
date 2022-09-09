@@ -127,8 +127,7 @@ a:focus {
 }
 
 #sidebar ul li.active>a,
-a[aria-expanded="true"] 
-{
+a[aria-expanded="true"] {
     color: black;
     background: #e3f2fd;
 }
@@ -188,17 +187,28 @@ a.article:hover {
     right: 0;
 }
 .jumbotron{
-    background-color: rgba(255, 0, 0, 0.867)
+    background-color: rgb(255, 150, 2);
+    color: black;
 }
-#character{
+.character1{
     margin-top: 50px;
-    background-color: rgba(255, 2, 2, 0.867)
+    background-color: rgb(254, 205, 69);
+    color: black;
+}
+.About{
+    background-color: rgb(255, 170, 0);
 }
 .card{
-    box-shadow: 0 4px 10px 0 rgb(0, 0, 0);
+    box-shadow: 0 4px 10px 0 grey;
 }
 .card:hover{
-    box-shadow: 0 4px 10px 0 rgb(68, 68, 68);
+    box-shadow: 0 4px 10px 0 rgb(59, 59, 59);
+}
+.character{
+    background-color: rgb(255, 192, 4);
+}
+.character3{
+    background-color: rgb(252, 160, 0);
 }
 @media screen and (max-width: 600px){
     
