@@ -105,6 +105,7 @@ a:focus {
 #sidebar .sidebar-header {
     padding: 20px;
     background: #e3f2fd;
+    margin-top: 30px;
 }
 
 #sidebar ul.components {

@@ -1,8 +1,11 @@
-body {font-family: "Lato", sans-serif;}
+body {
+  font-family: "Lato", sans-serif;
+  min-height: max-content;
+}
 
 .sidebar {
   height: 100%;
-  width: 160px;
+  width: 200px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -12,10 +15,10 @@ body {font-family: "Lato", sans-serif;}
   padding-top: 16px;
 }
 
-.sidebar a {
+.sidebar a{
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 14px;
   color: white;
   display: block;
 }
@@ -23,13 +26,11 @@ body {font-family: "Lato", sans-serif;}
 .sidebar a:hover {
   color: #f1f1f1;
 }
-
 .main {
   margin-left: 160px; 
   padding: 0px 10px;
   text-align: center;
 }
-
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}

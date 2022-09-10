@@ -4,23 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HololiveJP</title>
+    <title>HololiveID</title>
     <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="/CSS/card.css">
     <link rel="icon" type="image/png" href="/logo web.png"/>
-    <style>
-        body{
-            margin-bottom: 10px;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <nav>
+        <a href="" style="float:left;" class="btn btn-rounded btn-dark"><svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+        </svg></a>
         <img src="/logo web.png" alt="" id="logo">
     </nav>
     <br>
     <br>
-    <h1 class="ml12">Hololive JP</h1> 
+    <h1 class="ml12">Hololive ID</h1> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
     <style>
   .ml12 {
@@ -58,243 +70,258 @@ anime.timeline({loop: true})
    </script> 
     <br>
     <br>
-    <div class="card">
-        <a href="/HTML/Miko HololiveJP.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/5/51/Sakura_Miko_-_Portrait_3D_03.png/900px-Sakura_Miko_-_Portrait_3D_03.png?20210121152310" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/Miko HololiveJP.html" style="text-decoration: none; color: black;"><b>Sakura Miko</b></a> 
-          <p>Hololive JP</p> 
+    <section class="talent text-center mb-3">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- 1 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/AmaneKanata.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Amane Kanata</h5>
+                <a href="/HTML/AmaneKanata.html" class="btn bnt-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 2 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/HousshouMarine.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Houshou Marine</h5>
+                <a href="/HTML/HoushouMarine.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 3 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/HimemeriLuna.png" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Himemori Luna</h5>
+                <a href="/HTML/HinemoriLuna.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 4 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/Inugami Korone.jpg" alt="" class="card-img-top">
+              <div class="card-body" style="padding-bottom: 38px;">
+                <h5 class="card-title">Inugami Korone</h5>
+                <a href="/HTML/InugamiKorone.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 5 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/KiryuCoco.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Kiryu Coco</h5>
+                <a href="/HTML/[Alum]KiryuCoco.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 6 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/MinatoAqua.jpg" alt="" class="card-img-top">
+              <div class="card-body" style="padding-bottom: 38px;">
+                <h5 class="card-title">Minato Aqua</h5>
+                <a href="/HTML/MinatoAqua.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 7 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/MurasakiShion.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Murasaki Shion</h5>
+                <a href="/HTML/MurasakiShuion.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 8 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/MomosuzuNene.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Momosuzu Nene</h5>
+                <a href="/HTML/MomosuzuNen.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 9 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/NakiriAyame.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Nakiri Ayame</h5>
+                <a href="/HTML/NakiriAyame.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 10 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/Nekomat Okayu.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Nekomata Okayu</h5>
+                <a href="/HTML/NekomataOkayu.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 11 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/OmaruPolka.jpg" alt="" class="card-img-top">
+              <div class="card-body" style="padding-bottom: 25px;">
+                <h5 class="card-title">OmaruPolka</h5>
+                <a href="/HTML/OmaruPolka.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 12 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/Oozora Subaru.jpg" alt="" class="card-img-top">
+              <div class="card-body" style="padding-bottom: 25px;">
+                <h5 class="card-title">Oozara Subaru</h5>
+                <a href="/HTML/OozaraSubaru.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 13 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/Robocosan.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Robocosan</h5>
+                <a href="/HTML/Robocosan.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 14 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/sakuramiko.png" alt="" class="card-img-top">
+              <div class="card-body" style="padding-bottom: 38px;">
+                <h5 class="card-title">Sakura Miko</h5>
+                <a href="/HTML/Miko HololiveJP.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 15 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/ShirakamiFubuki.png" alt="" class="card-img-top">
+              <div class="card-body" style="padding-bottom: 38px;">
+                <h5 class="card-title">Shirakami Fubuki</h5>
+                <a href="/HTML/ShirakamiFubuki.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 16 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/ShishiroBotan.png" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Shishiro Botan</h5>
+                <a href="/HTML/ShishiroBotan.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 17 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/TokinoSora.png" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Tokino Sora</h5>
+                <a href="/HTML/TokinoSora.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 18 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/TokoyomiTowa.png" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Tokoyami Towa</h5>
+                <a href="/HTML/TokoyamiTowa.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 19 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/Usada Pekora.png" alt="" class="card-img-top">
+              <div class="card-body" style="padding-bottom: 28px;">
+                <h5 class="card-title">Usada Pekora</h5>
+                <a href="/HTML/UsadaPekora.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 20 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/Yozora Mel.png" alt="" class="card-img-top">
+              <div class="card-body" style="padding-bottom: 28px;">
+                <h5 class="card-title">Yozora Mel</h5>
+                <a href="/HTML/YozoraMel.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 21 -->
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/Yukihana Lamy.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Yukihana Lamy</h5>
+                <a href="/HTML/YukihanaLamy.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 22 -->
+          <div class="col-md-5 mb-3">
+            <div class="card">
+              <img src="/Asset/Hololive JP/YuzukiChoco.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Yuzuki Choco</h5>
+                <a href="/HTML/YuzukiChoco.html" class="btn btn-rounded btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
         </div>
       </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/ShirakamiFubuki.html">
-        <img src="https://static.miraheze.org/hololivewiki/c/c6/Shirakami_Fubuki_-_Portrait_01.png?20200529001006" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/ShirakamiFubuki.html" style="text-decoration: none; color: black;"><b>Shirakamai Fubuki</b></a> 
-          <p>Hololive JP</p> 
-        </div>
+    </section>
+    <footer class="text-center text-lg-start">
+      <div class="text-center p-3" style="box-shadow: 0 4px 10px 0 grey;">
+        <h5>&copy;Copyright 2021/2022 <a href="www.maikelfapk.site" style="text-decoration: none; color: black;">MaikelFAPK</a></h5>
       </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/MinatoAqua.html">
-        <img src="https://static.miraheze.org/hololivewiki/6/6d/Minato_Aqua_-_Portrait_01.png?20210717102259" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/MinatoAqua.html" style="text-decoration: none; color: black;"><b>Minato Aqua</b></a> 
-          <p>Hololive JP</p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/NakiriAyame.html">
-        <img src="https://static.miraheze.org/hololivewiki/4/40/Nakiri_Ayame_-_Portrait_01.png?20210903174747" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/NakiriAyame.html" style="text-decoration: none; color: black;"><b>Nakiri Ayame</b></a> 
-          <p>Hololive JP</p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/HoushouMarine.html">
-        <img src="https://static.miraheze.org/hololivewiki/c/cb/Houshou_Marine_-_Portrait_01.png?20210730093931" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/HoushouMarine.html" style="text-decoration: none; color: black;"><b>Houshou Marine</b></a> 
-          <p>Hololive JP</p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/TokinoSora.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/0/0f/Tokino_Sora_-_Portrait_06-1.png/900px-Tokino_Sora_-_Portrait_06-1.png?20210108071117" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/TokinoSora.html" style="text-decoration: none; color: black;"><b>Tokino Sora</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/YuzukiChoco.html">
-        <img src="https://static.miraheze.org/hololivewiki/a/a7/Yuzuki_Choco_-_Portrait_01.png?20210506072308" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/YuzukiChoco.html" style="text-decoration: none; color: black;"><b>Yuzuki Choco</b></a> 
-          <p>Hololive JP</p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/MurasakiShuion.html">
-        <img src="https://static.miraheze.org/hololivewiki/a/ae/Murasaki_Shion_-_Portrait_01.png?20210903174743" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/MurasakiShuion.html" style="text-decoration: none; color: black;"><b>Murasaki Shion</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/Robocosan.html">
-        <img src="https://static.miraheze.org/hololivewiki/7/7e/Roboco_-_Portrait_01-1.png?20210128222047" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/Robocosan.html" style="text-decoration: none; color: black;"><b>Robocosan</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <div class="card">
-        <a href="/HTML/YozoraraMel.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/f/fe/Yozora_Mel_-_Portrait_01-2.png/900px-Yozora_Mel_-_Portrait_01-2.png?20210508222114" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/YozoraraMel.html" style="text-decoration: none; color: black;"><b>Yozora Mel</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/NekomataOkayu.html">
-        <img src="https://static.miraheze.org/hololivewiki/0/0c/Nekomata_Okayu_-_Portrait_01.png?20200520112938" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/NekomataOkayu.html" style="text-decoration: none; color: black;"><b>Nekomata Okayu</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/InugamiKorone.html">
-        <img src="https://static.miraheze.org/hololivewiki/b/bd/Inugami_Korone_-_Portrait_01-1.png?20210903165207" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/InugamiKorone.html" style="text-decoration: none; color: black;"><b>Inugami Korone</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/UsadaPekora.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/d/d0/Usada_Pekora_-_Portrait_01.png/900px-Usada_Pekora_-_Portrait_01.png?20200602023618" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/UsadaPekora.html" style="text-decoration: none; color: black;"><b>Usada Pekora</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/OozaraSubaru.html">
-        <img src="https://static.miraheze.org/hololivewiki/1/12/Oozora_Subaru_-_Portrait_01.png?20210903174727" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/OozaraSubaru.html" style="text-decoration: none; color: black;"><b>Oozora Subaru</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/AmaneKanata.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/3/36/Amane_Kanata_-_Portrait_01.png/900px-Amane_Kanata_-_Portrait_01.png?20210903010945" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/AmaneKanata.html" style="text-decoration: none; color: black;"><b>Amane Kanata</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/TokoyomiTowa.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/9/9d/Tokoyami_Towa_-_Portrait_01.png/900px-Tokoyami_Towa_-_Portrait_01.png?20210903103421" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/TokoyomiTowa.html" style="text-decoration: none; color: black;"><b>Tokoyami Towa</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/HinemoriLuna.html">
-        <img src="https://static.miraheze.org/hololivewiki/c/ce/Himemori_Luna_-_Portrait_01.png?20210903111443" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/HinemoriLuna.html" style="text-decoration: none; color: black;"><b>Himemori Luna</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/YukihanaLamy.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/6/68/Yukihana_Lamy_-_Portrait_01.png/900px-Yukihana_Lamy_-_Portrait_01.png?20210903115222" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/YukihanaLamy.html" style="text-decoration: none; color: black;"><b>Yukihana Lamy</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/MomosuzuNen.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/a/a0/Momosuzu_Nene_-_Portrait_02.png/900px-Momosuzu_Nene_-_Portrait_02.png?20210903132703" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/MomosuzuNen.html" style="text-decoration: none; color: black;"><b>Momosuzu Nene</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/ShishiroBotan.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/e/e2/Shishiro_Botan_-_Portrait_01.png/900px-Shishiro_Botan_-_Portrait_01.png?20200806124832" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/ShishiroBotan.html" style="text-decoration: none; color: black;"><b>Shishiro Botan</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/OmaruPolka.html">
-        <img src="https://static.miraheze.org/hololivewiki/thumb/c/c3/Omaru_Polka_-_Portrait_01.png/900px-Omaru_Polka_-_Portrait_01.png?20200806125303" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/OmaruPolka.html" style="text-decoration: none; color: black;"><b>Omaru Polka</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <a href="/HTML/[Alum]KiryuCoco.html">
-        <img src="https://static.miraheze.org/hololivewiki/0/0f/Kiryu_Coco_-_Portrait_02.png?20210903172631" alt="Avatar" style="width:50%">
-        </a>
-        <div class="container">
-          <a href="/HTML/[Alum]KiryuCoco.html" style="text-decoration: none; color: black;"><b>[Alum] Kiryu Coco</b></a> 
-          <p>Hololive JP </p> 
-        </div>
-      </div>
+    </footer>
 </body>
 </html>
