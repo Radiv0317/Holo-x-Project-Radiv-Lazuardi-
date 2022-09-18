@@ -187,16 +187,18 @@ a.article:hover {
     right: 0;
 }
 .jumbotron{
-    background-color: rgb(255, 150, 2);
     color: black;
+    background: rgb(63,94,251);
+    background: linear-gradient(180deg, rgba(63,94,251,1) 0%, rgba(162,255,255,1) 100%);
 }
 .character1{
     margin-top: 50px;
-    background-color: rgb(254, 205, 69);
+    background: rgb(63,94,251);
+    background: linear-gradient(180deg, rgba(63,94,251,1) 0%, rgba(0,5,5,1) 100%);
     color: black;
 }
 .About{
-    background-color: rgb(255, 170, 0);
+    background-color: #fff;
 }
 .card{
     box-shadow: 0 4px 10px 0 grey;
@@ -205,10 +207,10 @@ a.article:hover {
     box-shadow: 0 4px 10px 0 rgb(59, 59, 59);
 }
 .character{
-    background-color: rgb(255, 192, 4);
+    background-color: #fff;
 }
 .character3{
-    background-color: rgb(252, 160, 0);
+    background-color: #8b9cf3;
 }
 @media screen and (max-width: 600px){
     

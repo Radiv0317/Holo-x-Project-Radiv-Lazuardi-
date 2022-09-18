@@ -57,3 +57,22 @@
    <br>
    <br>
    <a class="link1" href="HTML/aboutme.html" target="_blank">Abaouth Me</a>
+
+
+
+   <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="display-4 mt-5">Kiryu Coco</h1>
+              <p class="mt-5">Kiryu Coco (桐生ココ) adalah seorang YouTuber Virtual Jepang wanita yang terkait dengan hololive, memulai debutnya sebagai bagian dari generasi keempat VTuber bersama Tsunomaki Watame, Tokoyami Towa, Amane Kanata dan Himemori Luna.</p>
+            </div>
+            <!-- card -->
+            <div class="col-md-4">
+              <!-- Card -->
+              <div class="card shadow bg-transparent">
+                <img class="card-img-top" src="/Asset/HJPprofile/KiryuCoco.png" alt="">
+              </div>
+              </div>
+            </div>
+            <!-- end -->
+          </div>
