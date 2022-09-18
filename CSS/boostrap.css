@@ -2,6 +2,10 @@
     background: rgb(227,242,253);
     background: linear-gradient(180deg, rgba(227,242,253,1) 0%, rgba(0,233,255,1) 100%);
 }
+.container{
+    background: rgb(227,242,253);
+    background: linear-gradient(180deg, rgba(227,242,253,1) 0%, rgba(0,233,255,1) 100%);
+}
 .History{
     background: rgb(227,242,253);
     background: linear-gradient(3deg, rgba(227,242,253,1) 0%, rgba(0,233,255,1) 100%);
