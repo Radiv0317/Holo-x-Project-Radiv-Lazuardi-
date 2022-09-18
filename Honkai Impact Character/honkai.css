@@ -188,14 +188,17 @@ a.article:hover {
     right: 0;
 }
 .jumbotron{
-    background-color: rgba(255, 0, 0, 0.867)
+    background: rgb(187,84,255);
+    background: linear-gradient(4deg, rgba(187,84,255,1) 0%, rgba(0,255,245,1) 50%, rgba(106,81,247,1) 100%);
 }
 #character{
-    margin-top: 50px;
-    background-color: rgba(255, 2, 2, 0.867)
+    background: rgb(187,84,255);
+    background: linear-gradient(4deg, rgba(187,84,255,1) 0%, rgba(0,255,245,1) 50%, rgba(106,81,247,1) 100%);
 }
 .card{
     box-shadow: 0 4px 10px 0 rgb(0, 0, 0);
+    background: rgb(105,135,255);
+    background: radial-gradient(circle, rgba(105,135,255,1) 0%, rgba(35,249,255,1) 50%, rgba(39,182,246,1) 100%);
 }
 .card:hover{
     box-shadow: 0 4px 10px 0 rgb(68, 68, 68);
