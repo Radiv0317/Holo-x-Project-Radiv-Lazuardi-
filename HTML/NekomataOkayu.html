@@ -5,317 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NekomataOkayu</title>
     <link rel="icon" type="image/png" href="/Asset/logo web.png"/>
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/CCCARD.css">
+    <link rel="stylesheet" href="/CSS/boostrap.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="/CSS/sidenav.css">
-    <link rel="stylesheet" href="/CSS/img.css">
-      <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="style3.css">
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-<style>
-*{
-  text-align: center;
-}
-</style>
 </head>
 <body>
-  
-  <div class="wrapper">
-    <!-- Sidebar  -->
-    <nav id="sidebar">
-        <div id="dismiss">
-            <i class="fas fa-arrow-left"></i>
-        </div>
-
-        <div class="sidebar-header">
-            <h3>MaikelFAPK.site</h3>
-        </div>
-
-        <ul class="list-unstyled components">
-            <p>Hololive</p>
-            <li class="active">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Hololive EN & ID Member</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="/HTML/Gawr Gura2.html" target="_blank">Gawr Gura</a>
-                    </li>
-                    <li>
-                        <a href="/HTML/Amelia Watson EN.html" target="_blank">Amelia Watson</a>
-                    </li>
-                    <li>
-                        <a href="/HTML/MoriColliope.html" target="_blank">Mori Calliope</a>
-                    </li>
-                    <li>
-                      <a href="/HTML/OuroKronii.html" target="_blank">Ouro Kroni</a>
-                  </li>
-                  <li>
-                    <a href="/HTML/CeresFauna.html" target="_blank">Ceres Fauna</a>
-                </li>
-                <li>
-                  <a href="/HTML/TakanashiKiara.html" target="_blank">Takanashi Kiara</a>
-              </li>
-              <li>
-                <a href="/HTML/NinomaeIna'nis.html" target="_blank">Ninomae Ina'nis</a>
-            </li>
-            <li>
-              <a href="/HTML/NanashiMumei.html" target="_blank">Nanashi Mumei</a>
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm m-0 mb-0 p-0" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html" target="_blank"><img src="/Asset/logo web.png" alt="" width="40"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
           </li>
-          <li>
-            <a href="/HTML/AyundaRisu.html" target="_blank">Ayunda Risu</a>
-        </li>
-        <li>
-          <a href="/HTML/AiraniIofiteen.html" target="_blank">Airani Iofifteen</a>
-      </li>
-      <li>
-        <a href="/HTML/AnyaMelfissa.html" target="_blank">Anya Melfissa</a>
-    </li>
-    <li>
-      <a href="/HTML/MoonaHosinova.html" target="_blank">Moona Hoshinova</a>
-  </li>
-  <li>
-    <a href="/HTML/KureijiOllie.html" target="_blank">Kureiji Ollie</a>
-</li>
-<li>
-  <a href="/HTML/KaelaKovalskia.html" target="_blank">Kaela Kovalskia</a>
-</li>
-<li>
-  <a href="/HTML/PavoliaReine.html" target="_blank">Pavolia Reine</a>
-</li>
-<li>
-  <a href="/HTML/VestiaZeta.html" target="_blank">Vestia Zeta</a>
-</li>
-<li>
-  <a href="/HTML/KoboKanaeru.html" target="_blank">Kobo Kanaeru</a>
-</li>
-        </ul>
-      </li>
-            <li>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Hololive JP</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li>
-                        <a href="/HTML/Miko HololiveJP.html" target="_blank">Sakura Miko</a>
-                    </li>
-                    <li>
-                        <a href="/HTML/ShirakamiFubuki.html" target="_blank">Shirakamai Fubuki</a>
-                    </li>
-                    <li>
-                        <a href="/HTML/MinatoAqua.html" target="_blank">Minato Aqua</a>
-                    </li>
-                    <li>
-                      <a href="/HTML/NakiriAyame.html" target="_blank">Nakiri Ayame</a>
-                  </li>
-                  <li>
-                    <a href="/HTML/HoushouMarine.html" target="_blank">Houshou Marine</a>
-                </li>
-                <li>
-                  <a href="/HTML/TokinoSora.html" target="_blank">Tokino Sora</a>
-              </li>
-              <li>
-                <a href="/HTML/YuzukiChoco.html" target="_blank">Yuzuki Choco</a>
-            </li>
-            <li>
-              <a href="/HTML/MurasakiShuion.html" target="_blank">Murasaki Shion</a>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/HololiveEN.html">Hololive EN</a>
           </li>
-          <li>
-            <a href="/HTML/Robocosan.html" target="_blank">Robocosan</a>
-        </li>
-        <li>
-          <a href="MomosuzuNen.html" target="_blank">Momosuzu Nene</a>
-      </li>
-      <li>
-        <a href="YozoraraMel.html" target="_blank">Yozora Mel</a>
-    </li>
-    <li>
-      <a href="/HTML/NekomataOkayu.html" target="_blank">Nekomata Okayu</a>
-  </li>
-  <li>
-    <a href="InugamiKorone.html" target="_blank">Inugami Korone</a>
-</li>
-<li>
-  <a href="UsadaPekora.html" target="_blank">Usada Pekora</a>
-</li>
-<li>
-  <a href="/HTML/AmaneKanata.html" target="_blank">Amane Kanata</a>
-</li>
-<li>
-  <a href="TokoyomiTowa.html" target="_blank">Tokoyomi Towa</a>
-</li>
-<li>
-  <a href="HinemoriLuna.html" target="_blank">Himemori Luna</a>
-</li>
-<li>
-  <a href="YukihanaLamy.html" target="_blank">Yukihana Lamy</a>
-</li>
-<li>
-  <a href="ShishiroBotan.html" target="_blank">Shishiro Botan</a>
-</li>
-<li>
-  <a href="OmaruPolka.html" target="_blank">Omaru Polka</a>
-</li>
-<li>
-  <a href="[Alum]KiryuCoco.html" target="_blank">Kiryu Coco</a>
-</li>
-                </ul>
-            </li>
-            <li>
-                <a href="/Galery/Galery.html" target="_blank">Galery</a>
-            </li>
-            <li>
-                <a href="aboutme.html" target="_blank">About Me</a>
-            </li>
-            <li>
-              <a href="/HTML/otheranime.html" target="_blank">Other</a>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/HololiveJP.html">Hololive JP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/HololiveID.html">Hololive ID</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/otheranime.html">Other</a>
           </li>
         </ul>
-
-        <ul class="list-unstyled CTAs">
-            <li>
-                <a href="https://www.instagram.com/username.1234.rr/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                </svg>  Instagram</a>
-            </li>
-            <li>
-                <a href="https://github.com/Radiv0317" class="article" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                </svg>  Git Hub</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Page Content  -->
-    <div id="content">
-
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-            <div class="container-fluid">
-
-                <button type="button" id="sidebarCollapse" class="btn btn-info" style="background-color: #e3f2fd; border: 0px; color: black;">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                  </svg>
-                </button>
-                <h4>MaikelFAPK</h4>
-             <a href="/index.html" style="text-decoration: none; color: black;"><svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-              <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-            </svg></a>
-        </nav>
-     
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <!-- jQuery Custom Scroller CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal"
-            });
-
-            $('#dismiss, .overlay').on('click', function () {
-                $('#sidebar').removeClass('active');
-                $('.overlay').removeClass('active');
-            });
-
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').addClass('active');
-                $('.overlay').addClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-        });
-    </script>
-     <div>
-      <h1>
-        Nekomata Okayu
-        <br>
-        <h4>猫又おかゆ</h4>
-        <p>
-          <img src="https://wallpapercave.com/dwp2x/wp7432648.jpg" alt="">
-          Nekomata Okayu (猫又おかゆ) adalah YouTuber Virtual perempuan Jepang yang berasosiasi dengan hololive, memulai debutnya sebagai bagian dari grup "hololive Gamers" (ホロライブゲーマーズ) bersama Shirakami Fubuki, Ookami Mio dan Inugami Korone.
-          <br>
-          <br>
-          Okayu biasanya sangat santai, berjiwa bebas, dan juga agak playboy atau suka iseng. Dia kadang-kadang menggoda secara terbuka dengan anggota hololive lainnya hanya untuk melihat reaksi mereka dan juga dikenal karena memakan makanan secara impulsif. Dia tidak pernah menyangkal kesalahannya dan diberikan vonis bersalah dalam beberapa kasus "Pengadilan Okayu", setelah itu dia dengan patuh menjalani hukumannya. Okayu biasanya suka berbicara banyak dan melalui banyak stream dia suka berbicara tentang kegiatan sehari-hari dan cerita lama.
-          <br>
-          <br>
-          Terlepas dari kepribadiannya yang santai, Okayu bisa menjadi sangat emosional saat bermain game sampai-sampai dia bisa menangis saat momen emosional dalam cerita gim. Ini terjadi terutama ketika dia menyelesaikan gim The Legend of Zelda: Link's Awakening, di mana dia menangis di stream setelah menyelesaikan permainan selama beberapa menit dan membutuhkan waktu untuk menenangkan diri.
-          <br>
-          <br>
-          Dia menyapa pemirsanya dengan "Mogu! Mogu!", yang berarti suara mengunyah orang Jepang.
-          <p>
-            <b>Latar Belakang</b>
-            <br>
-            <br>
-            Dia pertama kali diumumkan pada 22 Maret 2019 dalam pengungkapan model 3D Shirakami Fubuki. Fubuki mengumumkan bahwa dia bersama Inugami Korone akan bergabung dengan Hololive Gamers pada bulan April. Hal ini diikuti oleh pengumuman di akun Twitter hololive pada 25 Maret. Dia secara resmi diperkenalkan pada 1 April.
-            <br>
-            <br>
-            Akun Twitter-nya dibuka pada 24 Maret 2019 sementara saluran YouTube-nya dibuat pada 25 Maret meskipun dia pertama kali memulai aktivitasnya di sana dengan stream perkenalan pada 6 April.
-            <p>
-              <b>2019</b>
-              <br>
-              <br>
-              Pada 29 September, dia mengumumkan di akun Twitter-nya bahwa dia akan mendapatkan model 3D-nya.
-
-              Pada 4 Oktober, dia memulai debut model 3D-nya pada sebuah stream.
-              <br>
-              <br>
-              <b>2020</b>
-              <br>
-              <br>
-              Pada 1 Januari, dia mengumumkan di Twitter bahwa dia akan mendapatkan kostum 2D keduanya, kimono yang terinspirasi dari pakaian pembantu untuk merayakan tahun baru, kostum ini kemudian terungkap saat streaming pada hari berikutnya pada tanggal 2 Januari.
-              <br>
-              <br>
-              Pada 24 Januari bersama dengan gadis-gadis hololive lainnya hingga generasi ketiga, ia memulai debut pakaian idola 3D-nya di festival pertama Hololive. Nonstop story.
-              <br>
-              <br>
-              Pada 11 Juni, akun Twitter hololive mengumumkan bahwa Okayu akan mendapatkan kostum 2D baru.
-              <br>
-              <br>
-              Pada 12 Juni, ia memulai debut kostum 2D ketiganya, desain yang terinspirasi dari pelaut fuku pada sebuah stream.
-              <br>
-              <br>
-              Pada 10 September, ia mencapai 500.000 pelanggan YouTube, menjadikannya anggota hololive ke-11 yang mencapai tonggak sejarah itu.
-              <br>
-              <br>
-              Pada 27 Oktober, ia mencapai 600.000 pelanggan Youtube.
-              <br>
-              <br>
-              Pada 5 Desember, ia mencapai 700.000 pelanggan Youtube, menjadikannya anggota hololive ke-13 yang mencapainya. Pada hari yang sama, Shirogane Noel mencapai ambang yang sama.
-            </p>
-          </p>
-        </p>
-      </h1>
+      </div>
     </div>
-    <br>
+  </nav>
+    <section class="jumbotron text-center p-0 m-0" style="background-color: #e3f2fd;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="display-4 mt-5">Nekomata Okayu</h1>
+            <p class="mt-5 text-left">
+              Nekomata Okayu (猫又おかゆ) adalah seorang YouTuber Virtual Jepang wanita yang terkait dengan hololive, memulai debutnya sebagai bagian dari grup "hololive Gamers" (ホロライブゲーマーズ) bersama Shirakami Fubuki, Ookami Mio dan Inugami Korone.
+            </p>
+            <hr>
+            <p><b>Tanggal Debut :</b>   2019/04/06</p>
+            <hr>
+            <a class="btn btn-outline-dark" href="https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw" target="_blank">YouTube</a>
+          </div>
+          <!-- card -->
+          <div class="col-md-4 mt-5">
+            <!-- Card -->
+              <img src="/Asset/HJPprofile/NekomataOkayu.png" alt="" width="200">
+            </div>
+          </div>
+          <!-- end -->
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,0L1440,192L1440,320L0,320Z"></path></svg>
+    </section>
+    <!-- End -->
+    <!-- About -->
+    <section class="about">
+    <div class="container">
+      <h5 class="display-4">Kepribadian</h5>
+      <hr>
+      <div class="row">
+        <!-- 1 -->
+        <div class="col-md mt-5">
+              <p>
+                Okayu biasanya sangat santai, berjiwa bebas, dan juga agak playboy atau orang iseng. Dia terkadang menggoda secara terbuka dengan anggota hololive lainnya hanya untuk melihat reaksi mereka dan juga dikenal karena menggesek makanan secara impulsif. Dia tidak pernah menyangkal kesalahannya dan dijatuhi vonis bersalah dalam beberapa kasus "Pengadilan Okayu", setelah itu dia dengan patuh menjalani hukumannya. Okayu biasanya suka banyak berbicara dan melalui banyak aliran suka berbicara tentang kegiatan sehari-hari dan cerita lama.
+              </p>
+              <p>
+                Terlepas dari kepribadiannya yang santai, Okayu bisa menjadi sangat emosional ketika bermain game sampai-sampai dia bisa menangis selama momen emosional dalam cerita. Ini terjadi terutama ketika dia selesai: The Legend of Zelda: Link's Awakening, di mana dia menangis di streaming setelah mengalahkan permainan selama beberapa menit dan membutuhkan waktu untuk menenangkan diri
+              </p>
+        </div>
+      </div>
+    </div>
+    
+    </section>
+    <!-- End -->
+    
+    <section class="History mt-0 p-0 m-0 pb-5">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,288L1440,0L1440,0L0,0Z"></path></svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h5 class="display-4">Latar</h5>
+          <hr>
+          <p class="text mt-5">
+            Dia pertama kali diumumkan pada 22 Maret 2019 dalam pengungkapan model 3D Shirakami Fubuki. Fubuki mengumumkan bahwa dia bersama Inugami Korone akan bergabung dengan Hololive Gamers pada bulan April. Ini ditindaklanjuti dengan pengumuman di akun Twitter hololive pada 25 Maret. Dia secara resmi diperkenalkan pada 1 April
+          </p>
+          <p>
+            Akun Twitter-nya dibuka pada 24 Maret 2019 sementara saluran YouTube-nya dibuat pada 25 Maret meskipun dia pertama kali memulai aktivitasnya di sana dengan streaming pengantar pada 6 April
+          </p>
+        </div>
+      </div>
+    </div>
+    </section>
     <footer class="bg-white text-center text-lg-start">
-      <div class="text-center p-3" style="background-color: #e3f2fd; box-shadow: 0 3px 10px 0 grey">
+      <div class="text-center p-3" style="background-color: #e3f2fd; box-shadow: 0 3px 10px 0 grey;">
         © 2022 Copyright:
-        <a class="text-dark" href="https://maikelfapk.site">MaikelFAPK</a>
+        <a class="text-dark" href="https://maikelfapk.site" style="text-decoration: none;">MaikelFAPK</a>
       </div>
     </footer>
-     <style>
-      h1{
-        text-align: center;
-      }
-      p{
-        font-size: 14px;
-        text-align: left;
-      }
-      h4{
-        text-align: center;
-      }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
