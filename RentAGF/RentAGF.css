@@ -1,0 +1,27 @@
+/*
+    DEMO STYLE
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+    background-color: rgba(221, 221, 221, 0);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+.jumbotron{
+    background: rgb(148, 243, 255)
+}
+#character{
+    background: rgb(138, 243, 255)
+}
+.card{
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0);
+}
+.card:hover{
+box-shadow: 0 4px 10px 0 rgb(68, 68, 68);
+}
+@media screen and (max-width: 600px){
+    
+}
